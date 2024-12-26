@@ -4,8 +4,11 @@ import main.*;
 
 public class Test {
     public static void main(String[] args) {
-        E_2235_AddTwoIntegers test = new E_2235_AddTwoIntegers();
-        System.out.println(test.sum(3,4));
+        E_1_TwoSum test = new E_1_TwoSum();
+        int[] array = {3, 2, 4};
+        int target = 6;
+        System.out.println(test.twoSum(array, target)[0] + " " + test.twoSum(array, target)[1]);
+
     }
 
 }
