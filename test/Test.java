@@ -4,12 +4,14 @@ import main.*;
 
 public class Test {
     public static void main(String[] args) throws InterruptedException {
-        E_1929_ConcatenationOfArray test = new E_1929_ConcatenationOfArray();
+        M_1769_MinimumNumberOfOperationsToMoveAllBallsToEachBox test = new M_1769_MinimumNumberOfOperationsToMoveAllBallsToEachBox();
 
-        int[] nums = {1, 3, 5};
-        int[] ans = test.getConcatenation(nums);
-        for (int i: ans) {
-            System.out.println(i);
+        String boxes = "001011";
+
+        int[] result = test.minOperations(boxes);
+
+        for (int i = 0; i < result.length; i++) {
+            System.out.println(result[i]);
         }
 
     }
