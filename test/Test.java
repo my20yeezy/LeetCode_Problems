@@ -4,9 +4,8 @@ import main.*;
 
 public class Test {
     public static void main(String[] args) throws InterruptedException {
-        E_1108_DefangingAnIPAddress test = new E_1108_DefangingAnIPAddress();
-        String address = "255.100.50.0";
-        String result = test.defangIPaddr(address);
+        E_3190_FindMinimumOperationsToMakeAllElementsDivisibleByThree test = new E_3190_FindMinimumOperationsToMakeAllElementsDivisibleByThree();
+        int result = test.minimumOperations(new int[]{3,6,9});
         System.out.println(result);
     }
 }
